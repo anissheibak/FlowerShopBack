@@ -1,0 +1,128 @@
+@font-face {
+    font-family: IRANSans;
+    src: url('../fonts/IRANSans/IRANSansWeb_Light.woff') format('woff');
+}
+
+*{
+    direction: rtl;
+    text-align: right;
+    font-family: IranSans;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+/* Colors */
+
+.bg-custom-yellow{
+    background: -webkit-gradient(linear, left top, right top, from(#feb798), to(#fe9365));
+    background: linear-gradient(to right, #feb798, #fe9365);
+}
+.bg-custom-green{
+    background: -webkit-gradient(linear, left top, right top, from(#0df3a3), to(#0ac282));
+    background: linear-gradient(to right, #0df3a3, #0ac282);
+}
+.bg-custom-pink{
+    background: -webkit-gradient(linear, left top, right top, from(#fe909d), to(#fe5d78));
+    background: linear-gradient(to right, #fe909d, #fe5d78);
+}
+.bg-custom-blue{
+    background: -webkit-gradient(linear, left top, right top, from(#01dbdf), to(#01a9ac));
+    background: linear-gradient(to right, #01dbdf, #01a9ac);
+}
+.bg-flower{
+    background-color:#d6bee4;
+    color: #000;
+}
+
+.color-flower{
+    color: #9d65be;
+}
+.color-1{
+    color: #c86adf;
+}
+.color-2{
+    color: #823977;
+}
+.btn-flower{
+    background-color: #d6bee4;
+    color: #502f71;
+}
+.btn-bg-yellow{
+    background-color: #f0dda4;
+    color: #502f71;
+}
+.btn-bg-yellow:hover{
+    background-color: #502f71;
+    color: #f0dda4;
+}
+.btn-bg-green{
+    background-color:#a7e9a7 ;
+    color: #36204d;
+}
+.btn-bg-green:hover{
+    background-color:#502f71 ;
+    color: #a7e9a7;
+}
+.btn-flower-reverse{
+    background-color: #502f71 ;
+    color:#d6bee4;
+}
+.btn-flower:hover{
+    background-color: #502f71 ;
+    color:#d6bee4;
+}
+
+/* Width */
+
+.width-16-rem{
+    width: 16rem;
+}
+.max-width-16-rem{
+    max-width: 16rem;
+}
+.width-22-rem{
+    width: 35rem;
+}
+.width-15-rem{
+    width:15rem;
+}
+.max-width-2rem{
+    max-width: 2rem;
+}
+.width-8-rem{
+    width: 8rem;
+}
+.image-width-2rem{
+    width: 2rem;
+}
+
+/* Fonts */
+.font-size-11{
+    font-size: 11px;
+}
+.font-size-12{
+    font-size: 15px;
+}
+.font-size-14{
+    font-size: 14px;
+}
+.font-size-17{
+    font-size: 17px;
+}
+
+
+.main-body table *{
+    font-size: .78rem;
+    text-align: center;
+}
+.main-body table td img{
+    width: 40px;
+    height: 40px;
+}
+
+/* Margin */
+.margin-top-2{
+    margin-top: 2rem;
+}
